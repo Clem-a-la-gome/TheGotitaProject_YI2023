@@ -19,7 +19,6 @@ The idea is to measure variables of water quality and aloud the user to visualiz
 To collect data, we will use electronic sensors that will measure water quality variables. Measures will then be sent through LoRaWAN protocole to TheThingsNetwork platform where data will be stored. After having the data stored in the platform, we will use an API to connect it with another app or web site to visualize the data.
 
 **Measured variables:**
-- Chlorine
 - Ph
 - Temperature
 - Water Level
