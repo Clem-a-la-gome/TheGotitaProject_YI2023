@@ -28,3 +28,6 @@ To collect data, we will use electronic sensors that will measure water quality 
 
 To transmit the data, each device will communicate with our Raspberry Pi gateway through LoRa radiofrequency. This RaspberryPi will be installed in one of the NGO's offices with WiFi accessibility. In case the nearest office doesn't have WiFi connection or is too far, we can relocate our gateway to a functional location and use a sim card module instead, to connect the gateway to a mobile network.
 
+## License 
+
+This repository is under 
