@@ -30,4 +30,4 @@ To transmit the data, each device will communicate with our Raspberry Pi gateway
 
 ## License 
 
-This repository is under 
+This repository is under [MIT License](https://github.com/clem-gh/TheGotitaProject_YI2023/blob/main/LICENSE.md).
