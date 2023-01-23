@@ -14,17 +14,17 @@ RANDOMS_INTERVAL = 5000 # milliseconds
 last_random_sent_ticks = 0  # milliseconds
 
 # Wireless network
-WIFI_SSID = "JORGE.151"
-WIFI_PASS = "bandaancha09" # No this is not our regular password. :)
+WIFI_SSID = 
+WIFI_PASS = 
 
 # Adafruit IO (AIO) configuration
-AIO_SERVER = "io.adafruit.com"
-AIO_PORT = 1883
-AIO_USER = "Clemente98"
-AIO_KEY = "aio_nkRV561yecYZQGwrA7gxLFM1HDVH"
-AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  # Can be anything
-AIO_CONTROL_FEED = "Clemente98/feeds/lights"
-AIO_RANDOMS_FEED = "Clemente98/feeds/randoms"
+AIO_SERVER = 
+AIO_PORT = 
+AIO_USER = 
+AIO_KEY = 
+AIO_CLIENT_ID = 
+AIO_CONTROL_FEED = 
+AIO_RANDOMS_FEED = 
 
 # END SETTINGS
 
