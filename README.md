@@ -12,9 +12,9 @@ For this, we need to ensure the water quality of the source and the distribution
 
 ## Proposal for the young innovator scholarship of 2023
 
-The idea is to measure variables of water quality and aloud the user to visualize data and have an historic of the water quality with an online data base. 
+The idea is to measure  water quality variables and aloud the user to visualize the data and have previous records through an online data base. 
 
-To collect data, we will use electronic sensors that will measure water quality variables. Measures will then be sent through LoRaWAN protocole to TheThingsNetwork platform where data will be stored. After having the data stored in the platform, we will use an API to connect it with another app or web site to visualize the data.
+To collect the data, we will use electronic sensors that will measure water quality variables. Measures will then be sent through LoRaWAN protocole to a data base platform where data will be stored. After having the data stored in the platform, we will visualize the data through a WebApp.
 
 **Measured variables:**
 - Ph
@@ -23,8 +23,6 @@ To collect data, we will use electronic sensors that will measure water quality 
 - Turbidity
 - Conductivity
 - Dissolved Oxygen
-
-To transmit the data, each device will communicate with our Raspberry Pi gateway through LoRa radiofrequency. This RaspberryPi will be installed in one of the NGO's offices with WiFi accessibility. In case the nearest office doesn't have WiFi connection or is too far, we can relocate our gateway to a functional location and use a sim card module instead, to connect the gateway to a mobile network.
 
 ## License 
 
