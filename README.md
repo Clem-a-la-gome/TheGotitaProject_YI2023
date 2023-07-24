@@ -20,7 +20,7 @@ The Gotita Project it's a system that can measure water quality variables and se
 - Conductivity
 - Dissolved Oxygen
 
-## Index:
+## Index
 1. [Microcontrollers]()
 2. [Web App]()
 
