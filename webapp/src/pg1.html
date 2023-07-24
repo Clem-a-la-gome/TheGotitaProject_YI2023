@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.PNG" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <title>The Gotita Project</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav>
+        <a href="./index.html"
+          ><img
+            src="./images/logo.PNG"
+            alt="logoTgp"
+            style="border-radius: 50%; width: 30%"
+        /></a>
+        <a href="./index.html"
+          ><img
+            src="./images/name.png"
+            alt="nameTgp"
+            style="width: 100%; padding-left: 50%; padding-right: 50%"
+        /></a>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pg1.html">Hardware</a></li>
+          <li><a href="./pg2.html">App</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div>
+        <div class="row">
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <h1 id="bckg-blue">
+              The Gotita Project it's a remote water quality measuring system.
+            </h1>
+          </div>
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <img
+              id="images"
+              src="./images/tgp2.jpg"
+              alt="TgpCharacter"
+              style="border: 0px"
+            />
+            <p style="font-size: 10px"><i>Gotita @Own Creation</i></p>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <h1>
+          Our solution is based on LoRa technologies and LoRaWAN Protocol.
+        </h1>
+        <div class="row">
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <p>
+              With the LoRaWAN protocol, (Long Range Wide Area Network), the
+              communication between objects can reach securely up to 15km.
+            </p>
+            <p>
+              The Things Networks (TTN) is an open platform offering
+              connectivity services using LoRaWAN communication.
+            </p>
+          </div>
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <img
+              id="images"
+              src="./images/img5.png"
+              alt="LoRaArchitecture"
+              style="border: 0px"
+            />
+            <p style="font-size: 10px">
+              <i>LoRaWAN architecture. @The Things Network</i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="nodes" id="bckg-blue">
+        <h1 style="color: white">
+          Our nodes are built on certified IoT boards
+        </h1>
+        <p>
+          Each node is built on a Pycom board. Pycom offers microcontrollers
+          that can be configured on different RF including LoRa RF. These boards
+          are MicroPython devices. Using MicroPython as the programming lenguage
+          facilitates the use open source libraries for controlling the sensors.
+        </p>
+        <div>
+          <a href="https://docs.pycom.io/datasheets/development/lopy4/"
+            ><img
+              id="images"
+              src="./images/img7.png"
+              alt="Pinboard"
+              style="border: 0px"
+          /></a>
+          <p style="font-size: 10px">
+            <i>Pinboard of the develoment board LoPy @Pycom</i>
+          </p>
+        </div>
+        <p>
+          The pinboard of pycom devices can be used for different purposes. They
+          have integrated on their system Analog to Digital Converters that will
+          aloud us to use multiple analog sensors.
+        </p>
+      </div>
+
+      <div class="wqvariables" style="padding: 20px 0px 20px 0px">
+        <h1>
+          The Gotita Project is measuring 5 diferent water quality variables.
+        </h1>
+        <ul>
+          <li>
+            <b>pH:</b> The pH probe is built on a glass-based membrane. This
+            probe is widely used because it's cheap and can be adapted to IoT
+            systems. Even so, this probe needs to be calibrated frequently, it
+            has a slow response and the error is higher than in other devices.
+          </li>
+          <li>
+            <b>Electrolical Conductivity (EC):</b> The EC probe is built on a 2
+            cell electrode. Values presents low errors, and the probe is very
+            cheap compared to other technologies. The response is not fast.
+          </li>
+          <li>
+            <b>Dissolved Oxygen (OD):</b> The OD probe is built on a galvanic
+            cell electrode. Eventhough this probe is not the most commonly used
+            in industry, it offers values with lo errors and probe still cheap
+            compared to other technogologies.
+          </li>
+          <li>
+            <b>Turbidity:</b> The turbidity is being measured by a tubidimeter.
+            This turbidimeter is not the most accurate one but is very cheap.
+          </li>
+          <li>
+            <b>Temperature:</b> The temperature is being measured by a
+            thermistor. It's cheap, has a good response and is the error is low.
+          </li>
+        </ul>
+      </div>
+
+      <div class="product">
+        <h1>Product design</h1>
+        <div class="row">
+          <div class="column">
+            <p>
+              This product has been designed in such way that biofouling is
+              prevent and calibration wouldn't be necessary frequently.
+            </p>
+            <p>
+              With the help of electric valves and the microcontroller we will
+              control the level of water inside the device. By doing this, we
+              are controlling the amount of time when sensors are in contact
+              with water.
+            </p>
+          </div>
+          <div class="column" style="text-align: right; padding-right: 20px">
+            <img
+              id="images"
+              src="./images/img6.png"
+              alt="product"
+              style="width: 30%; border: 0px"
+            />
+          </div>
+          <p style="font-size: 10px"><i>Product design</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: #0f5e9c;
+        justify-content: space-between;
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <h2 style="color: white">Contact</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="mailto:andre.gomez@utp.edu.co" style="color: white">Email</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/clement-gomez-henck/"
+            style="color: white"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/clem-gh/TheGotitaProject_YI2023"
+            style="color: white"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <a href="https://www.utp.edu.co/"
+        ><img
+          class="utp"
+          id="logoSupport"
+          src="images/Logo_U.T.P.png"
+          height="60"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+      <a href="https://minciencias.gov.co/"
+        ><img
+          id="logoSupport"
+          class="minciencia"
+          src="images/logo_minciencias.jpg"
+          height="50"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+    </div>
+  </body>
+</html>

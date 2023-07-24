@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Gotita Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="./images/logo.PNG" />
+    <!-- Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!-- Leaflet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <!-- Main JS -->
+    <script src="./app.js" type="module"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="header" style="position: absolute">
+      <nav>
+        <a href="./index.html" class="logoTgp"
+          ><img
+            src="./images/logo.PNG"
+            alt="logoTgp"
+            style="border-radius: 50%; width: 30%"
+        /></a>
+        <a href="./index.html" class="NameTgp"
+          ><img
+            src="./images/name.png"
+            alt="nameTgp"
+            style="width: 100%; padding-left: 50%; padding-right: 50%"
+        /></a>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pg1.html">Hardware</a></li>
+          <li><a href="./pg2.html">App</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Login -->
+
+    <div class="content">
+      <div id="login-div" class="login">
+        <form id="login-form">
+          <h1>The GotitApp</h1>
+          <input type="email" placeholder="Email..." id="login-email" />
+          <input
+            type="password"
+            placeholder="Password..."
+            id="login-password"
+          />
+          <button id="btnLogin" type="submit">Login to GotitApp</button>
+        </form>
+      </div>
+
+      <!-- Canvas -->
+
+      <div id="logout-div">
+        <h1 id="logout-title">The GotitaApp</h1>
+        <hr />
+        <div class="cols-2" id="cols-2">
+          <div>
+            <h3>
+              Sensor ID:
+              <select id="idOptions"></select>
+            </h3>
+            <div id="map"></div>
+          </div>
+
+          <figure class="bar-canvas-fig">
+            <h3>Overview</h3>
+            <canvas id="bar-canvas" aria-label="chart" role="img"></canvas>
+          </figure>
+        </div>
+
+        <div class="cols-1">
+          <figure>
+            <h3>
+              Features:
+              <select id="featuresOptions">
+                <option value="ph">pH [ - ]</option>
+                <option value="cty">Electrical Conductivity [μs/cm]</option>
+                <option value="do">Dissolved oxygen [ppm]</option>
+                <option value="temp">Temperature [°C]</option>
+                <option value="tdy">Turbidity [NTU]</option>
+              </select>
+            </h3>
+            <canvas
+              id="line-canvas"
+              aria-label="chart"
+              role="img"
+              height="300px"
+            ></canvas>
+          </figure>
+          <div class="testimonials">
+            <h3>About</h3>
+            <p>This app can be used by:</p>
+            <ul>
+              <li>
+                Engineers: for improving water quality and network performance.
+              </li>
+              <li>
+                Policymakers: for conceiving better public health policies.
+              </li>
+              <li>
+                Operators: they can be alerted if there is a serious problem
+                related to the water network.
+              </li>
+            </ul>
+            <p>
+              This is the first version of the GotitaApp and will be modified.
+              Please contact us if you need more information and/or if you have
+              any suggestions for future versions.
+            </p>
+            <p>
+              <b
+                >This is a sample: values are not real, do not consider these
+                graphs as true.</b
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logout -->
+
+      <div id="logout-div" class="login">
+        <form id="logout-form">
+          <button id="btnLogout" type="click">Logout</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Contact bottom header -->
+
+    <div
+      style="
+        background-color: #0f5e9c;
+        justify-content: space-between;
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <h2 style="color: white">Contact</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="mailto:andre.gomez@utp.edu.co" style="color: white">Email</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/clement-gomez-henck/"
+            style="color: white"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/clem-gh/TheGotitaProject_YI2023"
+            style="color: white"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <a href="https://www.utp.edu.co/"
+        ><img
+          class="utp"
+          id="logoSupport"
+          src="images/Logo_U.T.P.png"
+          height="60"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+      <a href="https://minciencias.gov.co/"
+        ><img
+          id="logoSupport"
+          class="minciencia"
+          src="images/logo_minciencias.jpg"
+          height="50"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.umd.js"></script>
+    <!-- Leaflet -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- adapter time chart js  -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  </body>
+</html>

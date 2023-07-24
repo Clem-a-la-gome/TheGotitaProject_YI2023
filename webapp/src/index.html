@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.PNG" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <script src="./main.js" type="module"></script>
+    <title>The Gotita Project</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav>
+        <a href="./index.html" class="logoTgp"
+          ><img
+            src="./images/logo.PNG"
+            alt="logoTgp"
+            style="border-radius: 50%; width: 30%"
+        /></a>
+        <a href="./index.html" class="NameTgp"
+          ><img
+            src="./images/name.png"
+            alt="nameTgp"
+            style="width: 100%; padding-left: 50%; padding-right: 50%"
+        /></a>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pg1.html">Hardware</a></li>
+          <li><a href="./pg2.html">App</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div class="intro">
+        <div class="row">
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <h1 id="bckg-blue">
+              Water has become one of the most precious resources in the world.
+            </h1>
+          </div>
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <img id="images" src="./images/img1.png" alt="WaterDroughtNASA" />
+            <p style="font-size: 10px">
+              <i
+                >Satellite images showing the drop in water levels at Lake Mead
+                from 2000 to 2022. @NASA</i
+              >
+            </p>
+          </div>
+        </div>
+        <p>
+          Due to climate change and human pollution, availability of drinking
+          water is nowadays decreasing.
+        </p>
+        <p>
+          Moreover, water quality globaly has also been affected by these
+          phenomenons.
+        </p>
+      </div>
+
+      <div class="global">
+        <h1>Providing safe drinking water is currently a big concern.</h1>
+        <div class="row">
+          <div class="column">
+            <iframe
+              src="https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor"
+              loading="lazy"
+              style="width: 100%; height: 600px; border: 0px none"
+            ></iframe>
+          </div>
+          <div class="column">
+            <iframe
+              src="https://ourworldindata.org/explorers/water-and-sanitation?facet=none&country=~OWID_WRL&hideControls=true&Resource=Drinking+water&Level+of+Access=Safely+managed&Residence=Total&Relative+to+population=Share+of+population"
+              loading="lazy"
+              style="width: 100%; height: 600px; border: 0px none"
+            ></iframe>
+          </div>
+        </div>
+        <p>
+          More than 1.23 million people are dying each year because of unsafe
+          water sources. It is three times higher than the number of homicides
+          in 2017 and it's equal to the number of death linked to road accident.
+          Only one in four people don't have access to safe drinking water in
+          the world.
+          <span
+            class="hovertext"
+            data-hover="H.Ritchie and M. Roser, “Clean Water and Sanitation”, Our World in Data, 2021."
+          >
+            <sup>[1]</sup>
+          </span>
+        </p>
+        <h2>
+          This problem is even more important in countries of the southern
+          hemisphere.
+        </h2>
+      </div>
+
+      <div class="colombia">
+        <h1>
+          Colombia is no exception and has a lot of issues related to drinkable
+          water accessibility.
+        </h1>
+        <div class="row">
+          <div class="column" style="text-align: left">
+            <p>
+              Less than 35% of the rural population have access to drinkable
+              water.
+              <span
+                class="hovertext"
+                data-hover="L. A. C. Botero, “The paradox of the availability of poor water quality in
+              the colombian rural sector,” Revista de Ingeniería, pp. 38-51, 2020."
+              >
+                <sup>[2]</sup>
+              </span>
+            </p>
+            <p>
+              Furthemore, approximately 884 545 cases of diarrhea have been
+              linked to unsafe drinking water in 2020 by the INS (Colombian
+              National Institute of Public Health).
+              <span
+                class="hovertext"
+                data-hover="Instituto Nacional de Salud (INS), 
+              “Boletín epidemiológico semanal: Situación de la enfermedad diarreica aguda en colombia,” pp. 1-20, 2020."
+              >
+                <sup>[3]</sup>
+              </span>
+            </p>
+          </div>
+          <div class="column" style="text-align: right">
+            <img
+              id="images"
+              src="./images/img2.jpg"
+              alt="WaterGuajiraWV"
+              style="width: 80%"
+            />
+            <p style="font-size: 10px">
+              <i>Photography of a child from La Guajira @World Vision</i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="chal"
+        id="bckg-blue"
+        style="margin-top: 2%; margin-bottom: 2%"
+      >
+        <h1 style="color: white">
+          Ensuring good water quality: a big challenge for Colombia.
+        </h1>
+        <div class="row">
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <p>
+              Current policies have established very strict guidelines for water
+              public utility companies to measure water quality. Even so, due to
+              the Colombian geography and infraestructure, it is very difficult
+              to measure water quality in rural areas and those guidelines are
+              very hard to meet in some cases.
+            </p>
+            <h2 style="color: white">
+              Approximately 30% of required rural samples wouldn't reach
+              laboratories on time to be correctly analyzed.
+              <span
+                class="hovertext"
+                data-hover="J. Wright, J. Liu, R. Bain, A. Perez, J. Crocker, J. Bartram, and S. Gundry,
+              “Water quality laboratories in colombia: A gis-based study of urban and rural accessibility,”
+              Science of the Total Environment, vol. 485-486, pp. 643-652, 7 2014."
+                ><sup>[4]</sup>
+              </span>
+            </h2>
+            <p>
+              On the other hand, during the month of may of 2023, only 63% of
+              the Colombian municipalities upload their information to the
+              SIVICAP, the open access platform where IRCA values (Colombian
+              Water Quality Index by law) are registred.
+              <span
+                class="hovertext"
+                data-hover="Instituto Nacional de Salud (INS), 
+              “Boletín de vigilancia de la calidad del agua para el consumo humano” pp. 1-10, 3 2023."
+                ><sup>[5]</sup>
+              </span>
+            </p>
+          </div>
+          <div class="column" style="padding: 10px 20px 10px 20px">
+            <img
+              id="images"
+              src="./images/img3.jpg"
+              alt="WaterICRCSemana"
+              style="width: 90%"
+            />
+            <p style="font-size: 10px">
+              <i>Photography of the colombian delegation of the ICRC @ICRC</i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="iot">
+        <h1>Using IoT could be a solution</h1>
+        <div class="row">
+          <div class="column">
+            <p>
+              Indeed, IoT technology would simplify water quality measurements
+              and could be a solution to ensuring good water quality.
+            </p>
+            <h2>
+              We wouldn't need to take water samples manually and transport them
+              to laboratories.
+            </h2>
+            <p>
+              Nowadays, we can use multiple RF (Radio-frequency) technologies
+              that can communicate in very long distances. For example, the
+              LoRaWAN protocol can reach up to 15km.
+              <span
+                class="hovertext"
+                data-hover="J. Petajajarvi, K. Mikhaylov, A. Roivainen, T. Hanninen, and M. Pettissalo,
+              “On the coverage of lpwans: range evaluation and channel attenuation model 
+              for lora technology,” in 2015 14th international conference on its telecommunications (itst). 
+              IEEE, pp. 55-59., 2015"
+                ><sup>[6]</sup>
+              </span>
+            </p>
+            <p>
+              Also, data could be centralized in a server and be uploaded
+              automatically.
+            </p>
+          </div>
+          <div class="column" style="text-align: center">
+            <img
+              id="images"
+              src="./images/img4.png"
+              alt="LoRaLogo"
+              style="width: 30%; border: 0px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="sensors">
+        <h1>Nevertheless, sensors haven't met the requirments we need.</h1>
+        <p>
+          Multiples challenges need to be solved before we can use environmental
+          sensors to ensure good water quality.
+        </p>
+        <ul>
+          <li>Prevent biofulling.</li>
+          <li>Diminish the amount of events to calibrate.</li>
+          <li>Improve the quality vs. cost relationship.</li>
+        </ul>
+      </div>
+
+      <div class="tgp">
+        <h2>
+          The Gotita Project is an attempt of designing a system that can
+          improve current designs of remote systems measuring water quality.
+        </h2>
+        <p>
+          Our solution is based on LoRaWAN protocol and it measures 5 different
+          water quality parameters. We have design a prototype that reduces the
+          number of calibration events and is less exposed to biofulling than
+          other designs.
+        </p>
+        <p>
+          Furthermore, we developped an app for data visualization, designed for
+          public utility companies and governmental public health institutions.
+        </p>
+        <div class="row">
+          <div
+            class="column"
+            style="text-align: center; padding-top: 30px; padding-bottom: 50px"
+          >
+            <a href="./pg1.html"
+              ><button style="border: 0px; font-weight: bold">
+                The Gotita Project Hardware
+              </button></a
+            >
+          </div>
+          <div
+            class="column"
+            style="text-align: center; padding-top: 30px; padding-bottom: 50px"
+          >
+            <a href="./pg2.html"
+              ><button style="border: 0px; font-weight: bold">
+                The gotita Project App
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="bckg-blue"
+        style="
+          background-color: white;
+          color: #114c5f;
+          border: 1px solid #90949647;
+        "
+      >
+        <div
+          style="
+            justify-content: space-between;
+            display: flex;
+            padding-bottom: 10px;
+            align-items: center;
+          "
+        >
+          <a
+            href="https://www.epfl.ch/innovation/domains/tech4dev/summer-school-2021/"
+            ><img
+              class="epfl"
+              src="images/logo_epfl.png"
+              height="35"
+              alt="logo"
+              style="border: 0px; border-radius: 0px"
+          /></a>
+          <a
+            href="https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000004320"
+            ><img
+              class="utp"
+              src="images/Logo_U.T.P.png"
+              height="60"
+              alt="logo"
+              style="border: 0px"
+          /></a>
+          <a
+            href="https://minciencias.gov.co/convocatorias/vocaciones-cientificas-ctei/convocatoria-jovenes-innovadores-en-el-marco-la"
+            ><img
+              class="minciencia"
+              src="images/logo_minciencias.jpg"
+              height="50"
+              alt="logo"
+              style="border: 0px"
+          /></a>
+        </div>
+        <div>
+          <p>
+            This project won the Innovation Award and the Sustainable Award
+            during the EPFL Tech4Dev Summer School and the Changemakers EPFL
+            edition of 2021, taught at the Ecole Polythechnique Fédérale de
+            Lausanne and sponsored by Logitech.
+          </p>
+          <p>
+            This project has been supervised by prof. Carlos Andres Mesa Montoya
+            and prof. Gian Carlo Daraviña Peña, from the investigation group
+            ProMa&DiMa of Universidad Tecnológica de Pereira.
+          </p>
+          <p>
+            This project entitled "The Gotita Project: sistema de medición a
+            distancia de la calidad de agua" has been sponserd by the Ministry
+            of Sciences, Technologies and Innovations of Colombia in the frame
+            of the Young Innovators Scholarship <em>(Grant n. 915)</em>,.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: #0f5e9c;
+        justify-content: space-between;
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <h2 style="color: white">Contact</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="mailto:andre.gomez@utp.edu.co" style="color: white">Email</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/clement-gomez-henck/"
+            style="color: white"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/clem-gh/TheGotitaProject_YI2023"
+            style="color: white"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        padding-bottom: 2.5%;
+        padding-top: 2.5%;
+      "
+    >
+      <a href="https://www.utp.edu.co/"
+        ><img
+          class="utp"
+          id="logoSupport"
+          src="images/Logo_U.T.P.png"
+          height="60"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+      <a href="https://minciencias.gov.co/"
+        ><img
+          id="logoSupport"
+          class="minciencia"
+          src="images/logo_minciencias.jpg"
+          height="50"
+          alt="logo"
+          style="border: 0px"
+      /></a>
+    </div>
+  </body>
+</html>

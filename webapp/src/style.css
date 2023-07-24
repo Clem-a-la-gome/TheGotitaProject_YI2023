@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #114C5F;
+    font-family: 'IBM Plex Sans', serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #114C5F;
+    font-family: 'IBM Plex Sans', serif;
+}
+
+body {
+    font-size: 16px;
+    color: #114C5F;
+    font-family: 'IBM Plex Sans', serif;
+    text-align: justify;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content {
+    margin: 150px 10% 25px 10%;
+}
+
+img {
+    width: 100%;
+    border: 1px solid #909496;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+img:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.column {
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+#bckg-blue {
+    background-color: #0f5e9c;
+    border: 1px solid  #909496;
+    border-radius: 8px;
+    padding: 20px 25px 25px 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+#bckg-blue:hover {
+    box-shadow: 0 0 20px 5px rgba(67, 66, 66, 0.5);
+    transition: 0.5s;
+}
+
+button {
+    background-color: #0f5e9c; /* Green */
+    border: 1px solid  #909496;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #2389da;
+    box-shadow: 0 0 20px 1px rgba(67, 66, 66, 0.5);
+    transition: 0.5s;    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: -5px;
+    align-items: center;
+    box-shadow: 0 0 2px 1px rgba(67, 66, 66, 0.5);
+    margin: 0;
+}
+
+.header a{
+    width: 10%;
+}
+
+.header a img{
+    width: 50%;
+    border: 0px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+nav {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.nav-links {
+    padding: 28px 0;
+    margin: 0 15px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;   
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;  
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #0f5f9cb2;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.hovertext {
+    position: relative;
+  }
+  
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.804);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    font-size: 16px;
+    font-weight: normal;
+    top: 110%;
+}
+  
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hovertext:hover {
+    color: red;
+}
+
+.login {
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 13%;
+    margin-bottom: 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    width: 87%;
+    margin-bottom: 20px;
+}
+
+
+.login input:focus {
+    border: 1px solid #777
+}
+
+.login button {
+    background: #0f5f9c;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0,3s;
+}
+
+.login button:hover {
+    background-color: #2389da;
+    box-shadow: 0 0 20px 1px rgba(67, 66, 66, 0.5);
+}
+  
+
+#map { 
+    height: 350px;
+    width: 400px;
+}
+
+.cols-1{
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#bar-canvas{
+    height: 500px;
+    width: 700px;
+}
+
+#line-canvas{
+    height: 500px;
+    width: 700px;
+}
+
+#logout-div{
+    margin-top: 50px;
+}
+
+#logout-title{
+    text-align: center;
+}
+
+.cols-2{
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
