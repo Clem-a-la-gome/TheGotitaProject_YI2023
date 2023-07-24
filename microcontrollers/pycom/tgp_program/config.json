@@ -1,5 +1,5 @@
 {
-  "APP_EUI": "B3C71BFFFFE8026E",
-  "APP_KEY": "CC5115A9402548B3C140FD1A1307ECF1",
-  "DEV_EUI": "B3C71BFFFFE8026E"
+  "APP_EUI": "", /* Valor dado por TTN */
+  "APP_KEY": "", /* Valor dado por TTN */
+  "DEV_EUI": "" /* Valor dado por TTN */
 }
