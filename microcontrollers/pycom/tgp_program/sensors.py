@@ -24,8 +24,8 @@ dfr_ec = DFRobot_EC()
 ow = OneWire(Pin('P23')) # Pin sensor DS18B20
 # create an ADC object bits=10 means range 0-1024
 adc = ADC(bits=10)
-# apin_DO = adc.channel(attn=ADC.ATTN_11DB, pin='P17') # Pin sensor DO
-# apin_T = adc.channel(attn=ADC.ATTN_11DB, pin='P15') # Pin sensor Turbidez
+# apin_DO = adc.channel(attn=ADC.ATTN_11DB, pin='P17') # Pin sensor DO, solo disponibles con LoPy4
+# apin_T = adc.channel(attn=ADC.ATTN_11DB, pin='P15') # Pin sensor Turbidez, solo disponibles con LoPy4
 apin_EC = adc.channel(attn=ADC.ATTN_11DB, pin='P14') # Pin sensor EC
 apin_PH = adc.channel(attn=ADC.ATTN_11DB, pin='P13') # Pin sensor PH
 
