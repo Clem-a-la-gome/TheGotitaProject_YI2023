@@ -27,7 +27,9 @@ machine.callback(trigger = (machine.PYGATE_START_EVT | machine.PYGATE_STOP_EVT |
 print('Connecting to WiFi...',  end='')
 # Connect to a Wifi Network
 wlan = WLAN(mode=WLAN.STA)
-wlan.connect(ssid='JORGE.151', auth=(WLAN.WPA2, "bandaancha09"))
+SSID_NAME = '' #Nombre del SSID - WiFi
+PASSW = '' # Contraseña para acceder a WiFI
+wlan.connect(ssid=SSID_NAME, auth=(WLAN.WPA2, PASSW ))
 
 while not wlan.isconnected():
     print('.', end='')
