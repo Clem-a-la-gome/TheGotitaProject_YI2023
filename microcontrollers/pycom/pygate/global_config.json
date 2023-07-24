@@ -167,13 +167,13 @@
     }
   },
   "gateway_conf": {
-    "gateway_ID": "B3C71BFFFFE8026E",
+    "gateway_ID": "", /*Reemplazar por el ID del Gateway dado por TTN */
     "server_address": "nam1.cloud.thethings.network",
     "serv_port_up": 1700,
     "serv_port_down": 1700,
     "servers": [
       {
-        "gateway_ID": "B3C71BFFFFE8026E",
+        "gateway_ID": "", /*Reemplazar por el ID del Gateway dado por TTN */
         "server_address": "nam1.cloud.thethings.network",
         "serv_port_up": 1700,
         "serv_port_down": 1700,
