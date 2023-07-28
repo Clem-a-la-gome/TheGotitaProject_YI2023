@@ -4,13 +4,13 @@ This repository has been made in the context of the 2023 edition of the Young In
 
 ## Problem Statement
 
-In 2017, an estimated 1.2 million people died due to unsafe water sources. This was 2.2% of global deaths. More particularly, In Colombia, there is a serious problem with access to drinking water in rural areas, where the supply doesn't exceed 35%. In addition, in 2020 it was estimated approximately 884,545 cases of Acute Diarrheal Disease (ADD), a disease highly related to the consumption of water with poor quality.
+In 2017, an estimated 1.2 million people died due to unsafe water sources. This was 2.2% of global deaths. More particularly, In Colombia, there is a severe problem with access to drinking water in rural areas, where the supply doesn't exceed 35%. In addition, in 2020 approximately 884,545 cases of Acute Diarrheal Disease (ADD) were estimated, a disease highly related to poor quality water consumption.
 
 Ensuring good water quality is a huge challenge for public utility companies, governments, and NGOs. Nowadays, in rural areas, water quality is being measured in place with manual techniques, and samples need to be transported to laboratories that are very far away from these places. In fact, more than 35% of water samples wouldn't reach laboratories on time to be correctly analyzed.
 
 ## Proposal for the young innovator scholarship of 2023
 
-The Gotita Project it's a system that can measure water quality variables and send them to the cloud through the LoRaWAN protocol. To collect the data, we will use environmental electronic sensors. This system will be connected to a web app for the visualization of the data. 
+The Gotita Project it's a system that can measure water quality variables and send them to the cloud through the LoRaWAN protocol. To collect the data, we will use environmental electronic sensors. This system will be connected to a web app to visualize the data. 
 
 **Measured variables:**
 - Ph
