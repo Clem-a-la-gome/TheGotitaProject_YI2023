@@ -8,7 +8,7 @@ In this directory you will find:
 
 ## [Arduino](./arduino)
 
-If you want to learn and test the sensors before using them on Pycom boards, we have added the code to use these sensors with Arduino. You can also find the associated circuit where all the connections are shown. Since input analog pins can support the 5V sent by the sensors, a voltage divider is not needed.
+If you want to learn and test the sensors before using them on Pycom boards, we have added the code to use these sensors with Arduino. You can also find the associated circuit where all the connections are shown. Since his input pins can support the 5V sent by the sensors, a voltage divider is not needed.
 
 <p align="center">
   <img src="./img/arduino.png" alt="drawing" width="500"/>
