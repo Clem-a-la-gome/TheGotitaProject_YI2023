@@ -2,9 +2,13 @@
 
 This repository has been made in the context of the 2023 edition of the Young Innovator scholarship granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
 
+![plot](./img/minciencias)
+
 ## Problem Statement
 
 In 2017, an estimated 1.2 million people died due to unsafe water sources. This was 2.2% of global deaths. More particularly, In Colombia, there is a severe problem with access to drinking water in rural areas, where the supply doesn't exceed 35%. In addition, in 2020 approximately 884,545 cases of Acute Diarrheal Disease (ADD) were estimated, a disease highly related to poor quality water consumption.
+
+![plot](./img/owid_data.png)
 
 Ensuring good water quality is a huge challenge for public utility companies, governments, and NGOs. Nowadays, in rural areas, water quality is being measured in place with manual techniques, and samples need to be transported to laboratories that are very far away from these places. In fact, more than 35% of water samples wouldn't reach laboratories on time to be correctly analyzed.
 
