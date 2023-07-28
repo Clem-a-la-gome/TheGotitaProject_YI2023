@@ -8,20 +8,19 @@ In this directory you will find:
 
 ## [Arduino](./arduino)
 
-We have first configured an Arduino for testing sensors, so we have added the code to use these sensors with Arduino.
+If you want to learn and test the sensors before using them on Pycom boards, we have added the code to use these sensors with Arduino. You can also find the associated circuit where all the connections are shown. Since input analog pins can support the 5V sent by the sensors, a voltage divider is not needed.
 
-## [Pycom]
+## [Pycom](./pycom)
 
-Pycom is a company that produces microcontrollers that can be configured to work with multiples RF and servers. Their microcontrollers are based on the ESP32 and use Micropython as the coding language.
+Pycom microcontrollers can work with multiples RF. Their microcontrollers are based on the ESP32 and use Micropython as the coding language. The LoRaWAN protocol works with a Gateway that receives messages sent by the nodes through LoRa RF, and uploads them to the cloud through an Ethernet protocol or MQTT.
 
-### [Node configuration - FiPy + Expansion board]()
+### [Gateway - Pygate](./pycom/pygate)
 
-For the node we have used the FiPy and the 3V expansion board. This microcontroller will be connected to the sensors and will send measurements to the cloud.
+The Pygate it's a shield for the microcontrollers produced by Pycom that aloud us to configure them as gateways for the LoRaWAN protocol. It will be the gate between the messages sent from the node and The Things Network. The Things Networks it's a server that can manage our devices connected by LoRaWAN protocol. 
 
-### [Pygate](./pycom/pygate)
+### [Node configuration - FiPy + Expansion board](./pycom/tgp_program)
 
-The Pygate it's a shield for the microcontrollers produced by Pycom. It will be the gate between the messages sent from the node and the Things Network. 
-
+We have used the FiPy and the 3V expansion board to connect sensors and the rest of the devices. This microcontroller will send measurements firstly to the Pygate, and then, they will be uploaded to the cloud.
 
 ## License 
 
