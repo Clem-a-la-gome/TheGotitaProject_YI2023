@@ -2,10 +2,11 @@
 
 In this directory you will find: 
 
-- The circuits of the node.
-- The codes of the Pygate, Fipy, and Arduino.
+- The circuits for the node.
+- Code sample to configure the Pygate
+- Code to configure the Fipy/Lopy or the Arduino.
 
-## [Arduino]()
+## [Arduino](./arduino)
 
 We have first configured an Arduino for testing sensors, so we have added the code to use these sensors with Arduino.
 
@@ -17,7 +18,7 @@ Pycom is a company that produces microcontrollers that can be configured to work
 
 For the node we have used the FiPy and the 3V expansion board. This microcontroller will be connected to the sensors and will send measurements to the cloud.
 
-### [Pygate]()
+### [Pygate](./pycom/pygate)
 
 The Pygate it's a shield for the microcontrollers produced by Pycom. It will be the gate between the messages sent from the node and the Things Network. 
 
