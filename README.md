@@ -21,9 +21,9 @@ The Gotita Project it's a system that can measure water quality variables and se
 - Dissolved Oxygen
 
 ## Index
-1. [CAD]()
-2. [Microcontrollers]()
-3. [Web App]()
+1. [CAD](./cad)
+2. [Microcontrollers](./microcontrollers)
+3. [Web App](.webapp)
 
 
 ## License 
