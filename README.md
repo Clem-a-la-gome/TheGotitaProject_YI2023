@@ -39,4 +39,4 @@ The Gotita Project it's a system that can measure water quality variables and se
 
 ## License 
 
-This repository is under [MIT License](https://github.com/clem-gh/TheGotitaProject_YI2023/blob/main/LICENSE.md).
+This repository is under [MIT License](./LICENSE.md).
