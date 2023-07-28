@@ -7,4 +7,6 @@ components that have been designed for 3D printing and laser manufacturing of ac
 
 Some weakness have been detected in this first version. First of all, the use screws and brackets to attach the T tube and the box isn't optimal. We also 
 have detected a risk with insects, particurally with ants. Future versions need to be improve the sealing of electronic components to prevent the damage that can 
-be related to insects.  
+be related to insects.
+
+![plot](./tgp_cad.png)
