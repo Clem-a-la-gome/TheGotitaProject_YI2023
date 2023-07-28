@@ -38,6 +38,14 @@ We have used the FiPy and the 3V expansion board that will be connected to the s
   <img src="./img/Fipy.png" alt="drawing" width="500"/>
 </p>
 
+### [Node configuration Wipy + Expansion board [Extra: MQTT protocol]](./pycom/mqtt)
+
+We have added another example using MQTT protocol and Wipy (This can also be used with the Lopy or Fipy, just don't disconnect the LoRa antenna as this can damage the devices).
+
+<p align="center">
+  <img src="./img/wipy.png" alt="drawing" width="500"/>
+</p>
+
 ## License 
 
 This repository is under [MIT License](https://github.com/clem-gh/TheGotitaProject_YI2023/blob/main/LICENSE.md).
