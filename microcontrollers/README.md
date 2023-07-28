@@ -12,7 +12,11 @@ If you want to learn and test the sensors before using them on Pycom boards, we 
 
 ## [Pycom](./pycom)
 
-Pycom microcontrollers can work with multiples RF. Their microcontrollers are based on the ESP32 and use Micropython as the coding language. The LoRaWAN protocol works with a Gateway that receives messages sent by the nodes through LoRa RF, and uploads them to the cloud through an Ethernet protocol or MQTT.
+Pycom microcontrollers can work with multiples RF. Their microcontrollers are based on the ESP32 and use Micropython as the coding language. The LoRaWAN protocol works with a Gateway that receives messages sent by the nodes through LoRa RF, and uploads them to the cloud through an Ethernet protocol or WiFi.
+
+<p align="center">
+  <img src="./img/architecture.png" alt="drawing" width="500"/>
+</p>
 
 ### [Gateway - Pygate](./pycom/pygate)
 
