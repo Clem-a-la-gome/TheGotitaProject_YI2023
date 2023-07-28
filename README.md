@@ -2,7 +2,7 @@
 
 This repository has been made in the context of the 2023 edition of the Young Innovator scholarship granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
 
-![plot](./img/minciencias.jpg)
+<img src="./img/minciencias.jpg" alt="drawing" width="200"/>
 
 ## Problem Statement
 
