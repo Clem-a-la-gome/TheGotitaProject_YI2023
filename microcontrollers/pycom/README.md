@@ -12,11 +12,11 @@ in some of their pins. Since this, the Lopy can have more sensors than the Fipy,
 ## Circuito using Fipy
 
 <p align="center">
-  <img src="./circuit_fipy.png" alt="drawing" width="500"/>
+  <img src="./img/circuit_fipy.png" alt="drawing" width="500"/>
 </p>
 
 ## Circuit using Wipy
 
 <p align="center">
-  <img src="./img/circuit_Wipy.png" alt="drawing" width="500"/>
+  <img src="./img/circuit_wipy.png" alt="drawing" width="500"/>
 </p>
