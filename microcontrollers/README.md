@@ -20,11 +20,11 @@ Pycom microcontrollers can work with multiples RF. Their microcontrollers are ba
 
 ### [Gateway - Pygate](./pycom/pygate)
 
-The Pygate it's a shield for the microcontrollers produced by Pycom that aloud us to configure them as gateways for the LoRaWAN protocol. It will be the gate between the messages sent from the node and The Things Network. The Things Networks it's a server that can manage our devices connected by LoRaWAN protocol. 
+The Pygate it's a shield for the microcontrollers produced by Pycom that aloud us to configure them as gateways for the LoRaWAN protocol. It will be the gate between the messages sent from the node and The Things Network (TTN). TTN it's a server that can manage our devices connected by LoRaWAN protocol. His role is to receive the payload (corresponding to bits), traduce it to real data, and then sent it to the app through HTTP integration for example.
 
 ### [Node configuration - FiPy + Expansion board](./pycom/tgp_program)
 
-We have used the FiPy and the 3V expansion board to connect sensors and the rest of the devices. This microcontroller will send measurements firstly to the Pygate, and then, they will be uploaded to the cloud.
+We have used the FiPy and the 3V expansion board that will be connected to the sensors and the rest of the devices. This microcontroller will send measurements firstly to the Pygate through LoRA RF, and then, the Pygate will upload it to the cloud that is managed by TTN.
 
 ## License 
 
