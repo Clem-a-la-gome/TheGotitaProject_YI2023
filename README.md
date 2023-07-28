@@ -2,13 +2,13 @@
 
 This repository has been made in the context of the 2023 edition of the Young Innovator scholarship granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
 
-<img src="./img/minciencias.jpg" alt="drawing" width="200"/>
+<center><img src="./img/minciencias.jpg" alt="drawing" width="500"/></center>
 
 ## Problem Statement
 
 In 2017, an estimated 1.2 million people died due to unsafe water sources. This was 2.2% of global deaths. More particularly, In Colombia, there is a severe problem with access to drinking water in rural areas, where the supply doesn't exceed 35%. In addition, in 2020 approximately 884,545 cases of Acute Diarrheal Disease (ADD) were estimated, a disease highly related to poor quality water consumption.
 
-![plot](./img/owid_data.png)
+<center><img src="./img/owid_data.png" alt="drawing" width="500"/></center>
 
 Ensuring good water quality is a huge challenge for public utility companies, governments, and NGOs. Nowadays, in rural areas, water quality is being measured in place with manual techniques, and samples need to be transported to laboratories that are very far away from these places. In fact, more than 35% of water samples wouldn't reach laboratories on time to be correctly analyzed.
 
@@ -24,7 +24,7 @@ The Gotita Project it's a system that can measure water quality variables and se
 - Conductivity
 - Dissolved Oxygen
 
-![plot](./img/TheGotitaProject_Logo.png)
+<center><img src="./img/TheGotitaProject_Logo.png" alt="drawing" width="500"/></center>
 
 ## Index
 1. [CAD](./cad)
