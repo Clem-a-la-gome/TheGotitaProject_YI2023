@@ -2,7 +2,7 @@
 
 This repository has been made in the context of the 2023 edition of the Young Innovator scholarship granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
 
-![plot](./img/minciencias)
+![plot](./img/minciencias.jpg)
 
 ## Problem Statement
 
@@ -23,6 +23,8 @@ The Gotita Project it's a system that can measure water quality variables and se
 - Turbidity
 - Conductivity
 - Dissolved Oxygen
+
+![plot](./img/TheGotitaProject_Logo.png)
 
 ## Index
 1. [CAD](./cad)
