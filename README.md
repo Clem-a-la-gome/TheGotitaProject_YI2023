@@ -1,6 +1,6 @@
 # The Gotita Project - Young Innovators 2023
 
-This repository has been made in the context of the Young Innovator scholarship of the 2023 edition granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
+This repository has been made in the context of the Young Innovator scholarship of 2023 granted by the Colombian Ministry of Science. Our ambition is to create a water quality monitoring system for rural isolated zones.
 
 <p align="center">
   <img src="./img/minciencias.jpg" alt="drawing" width="500"/>
