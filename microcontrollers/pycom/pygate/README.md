@@ -13,7 +13,7 @@ find the archives necessary for the updating of the device.
 ## 2. Udpating the firmware on the FiPy
 
 The firmware of the Fipy can be uploaded manually like the PyGate, but there is another way much simpler. You just need to connect the Fipy to the Expansion board
-and then use the updating software built by Pycom. This software can be found [here](https://docs.pycom.io/updatefirmware/device/), as the tutorial as well. 
+and then use the updating software built by Pycom. This software can be found [here](https://docs.pycom.io/updatefirmware/device/), as well as the tutorial. 
 If you need more information, I recommend you to check this [video](https://www.youtube.com/watch?v=TEfiMnkvyyM&t=188s&ab_channel=Pycom).
 
 ## 3. Assembling the Pygate
