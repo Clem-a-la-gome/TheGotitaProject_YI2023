@@ -28,8 +28,8 @@ You need to assemble all the components:
 
 ## 4. Configure the code
 
-For this, you need to go to the (global_config.json)[./global_config.json] and set the EUI indicated at the end of the JSON file. The EUI it's a 64 bit extended unique identifier for each gateway. With Pycom products, what you can do is to use the 
+First of all, you need to configure your Gateway. For this, you need to go to the (global_config.json)[./global_config.json] and set the EUI indicated at the end of the JSON file. The EUI it's a 64 bit extended unique identifier for each gateway. There is a complete explanation (here)[https://hackmd.io/@sMJAvvKqQ6OQ7Y1uLK8WYQ/S1dhsfIp_#My-own-LoRa-gateway] on how to obtain a unique EUI identifier for your gateway.$
 
-You can use as EUI the 
+The last step is to configure the settings of the wifi. Change the SSID (Name) and the Password of your own Wifi in the (main.py)[./main.py].
 
 ## 5. Upload the files to the PyGate
