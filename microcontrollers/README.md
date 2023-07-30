@@ -8,7 +8,7 @@ In this directory you will find:
 
 ## [Arduino](./arduino)
 
-If you want to learn and test the sensors before using them on Pycom boards, we have added the code to use these sensors with Arduino. You can also find the associated circuit where all the connections are shown. Since his input pins can support the 5V sent by the sensors, a voltage divider is not needed.
+If you want to learn and test the sensors before using them on Pycom boards, we have added the code to use these sensors on the Arduino. You can also find the associated circuit where all the connections are shown. Since their input pins can support the 5V sent by the sensors, a voltage divider is not needed.
 
 <p align="center">
   <img src="./img/arduino.png" alt="drawing" width="500"/>
@@ -16,7 +16,9 @@ If you want to learn and test the sensors before using them on Pycom boards, we 
 
 ## [Pycom](./pycom)
 
-Pycom microcontrollers can work with multiples RF. Their microcontrollers are based on the ESP32 and use Micropython as the coding language. The LoRaWAN protocol works with a Gateway that receives messages sent by the nodes through LoRa RF, and uploads them to the cloud through an Ethernet protocol or WiFi.
+Pycom microcontrollers are used specifically for IoT purposes and can work with multiple radio frequencies (RF). These microcontrollers are based on the ESP32 and Micropython is their coding language. 
+
+In this project, we explored the LoRa RF and the LoRaWAN protocol. The LoRaWAN protocol consists of a Gateway that receives messages that are sent by the nodes through LoRa RF and uploads them to the cloud through an Ethernet protocol or WiFi.
 
 <p align="center">
   <img src="./img/architecture.png" alt="drawing" width="500"/>
@@ -24,7 +26,7 @@ Pycom microcontrollers can work with multiples RF. Their microcontrollers are ba
 
 ### [Gateway - Pygate](./pycom/pygate)
 
-The Pygate it's a shield for the microcontrollers produced by Pycom that aloud us to configure them as gateways for the LoRaWAN protocol. It will be the gate between the messages sent from the node and The Things Network (TTN). TTN it's a server that can manage our devices connected by LoRaWAN protocol. His role is to receive the payload (corresponding to bits), traduce it to real data, and then sent it to the app through HTTP integration for example.
+The Pygate is the Pycom shield that aloud us to configure the microcontrollers as gateways for the LoRaWAN protocol. They will be the gate between the messages sent from the node and The Things Network (TTN). TTN it's a server that can manage our devices connected by LoRaWAN protocol. Their role is to receive the payload (corresponding to the message in bits), traduce them into real data, and then sent it to the app through HTTP integration for example.
 
 <p align="center">
   <img src="./img/pygate.png" alt="drawing" width="500"/>
@@ -32,7 +34,7 @@ The Pygate it's a shield for the microcontrollers produced by Pycom that aloud u
 
 ### [Node configuration - FiPy + Expansion board](./pycom/tgp_program)
 
-We have used the FiPy and the 3V expansion board that will be connected to the sensors and the rest of the devices. This microcontroller will send measurements firstly to the Pygate through LoRA RF, and then, the Pygate will upload it to the cloud that is managed by TTN.
+We have used a FiPy and the 3V Expansion Board to connect the sensors and the rest of the devices. This microcontroller will send measurements firstly to the Pygate through LoRA RF in a payload given in bits, and then, the Pygate will traduce it and upload it to the cloud managed by TTN.
 
 <p align="center">
   <img src="./img/Fipy.png" alt="drawing" width="500"/>
