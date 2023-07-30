@@ -9,4 +9,7 @@ Some weakness have been detected in this first version. First of all, the use sc
 have detected a risk with insects, particurally with ants. Future versions need to be improve the sealing of electronic components to prevent the damage that can 
 be related to insects.
 
-![plot](./tgp_cad.png)
+<p align="center">
+  <img src="./tgp_cad.png" alt="drawing" width="500"/>
+</p>
+
