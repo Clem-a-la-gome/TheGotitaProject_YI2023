@@ -19,9 +19,9 @@ If you want to check the pinout diagram of the FiPy, you can check it [here](htt
   <img src="./img/circuit_fipy.png" alt="drawing" width="500"/>
 </p>
 
-## Circuit using Wipy
+## Circuit using Wipy3
 
-If you want to check the pinout diagram of the WiPy, you can check it [here](https://docs.pycom.io/gitbook/assets/wipy-pinout.pdf).
+If you want to check the pinout diagram of the WiPy3, you can check it [here](https://docs.pycom.io/gitbook/assets/wipy3-pinout.pdf).
 
 <p align="center">
   <img src="./img/circuit_wipy.png" alt="drawing" width="500"/>
