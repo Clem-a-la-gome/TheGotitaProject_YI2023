@@ -5,17 +5,23 @@ in some of their pins. For this reason, the Lopy can have more sensors than the 
 
 ## Circuit using Lopy
 
+If you want to check the pinout diagram of the LoPy, you can check it [here](https://docs.pycom.io/gitbook/assets/lopy-pinout.pdf).
+
 <p align="center">
   <img src="./img/circuit_lopy.png" alt="drawing" width="500"/>
 </p>
 
 ## Circuito using Fipy
 
+If you want to check the pinout diagram of the FiPy, you can check it [here](https://docs.pycom.io/gitbook/assets/fipy-pinout.pdf).
+
 <p align="center">
   <img src="./img/circuit_fipy.png" alt="drawing" width="500"/>
 </p>
 
 ## Circuit using Wipy
+
+If you want to check the pinout diagram of the WiPy, you can check it [here](https://docs.pycom.io/gitbook/assets/wipy-pinout.pdf).
 
 <p align="center">
   <img src="./img/circuit_wipy.png" alt="drawing" width="500"/>
