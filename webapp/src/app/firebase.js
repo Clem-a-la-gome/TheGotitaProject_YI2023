@@ -7,14 +7,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.17.1/firebase
 import { getStorage } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js";
 
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration - ADD YOUR OWN CONFIG
 const firebaseConfig = {
-    apiKey: "AIzaSyBmjdyXQWcXP4tJykgCjiCQknwzV_tGQGE",
-    authDomain: "the-gotita-project-10b7c.firebaseapp.com",
-    projectId: "the-gotita-project-10b7c",
-    storageBucket: "the-gotita-project-10b7c.appspot.com",
-    messagingSenderId: "305922678799",
-    appId: "1:305922678799:web:5b6962d77c67dd8f95037a"
+    apiKey: ,
+    authDomain: ,
+    projectId: ,
+    storageBucket: ,
+    messagingSenderId: ,
+    appId: 
   };
 
 // Initialize Firebase
