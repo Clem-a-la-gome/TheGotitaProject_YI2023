@@ -22,6 +22,7 @@
     />
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./fig.css" />
     <!-- Main JS -->
     <script src="./app.js" type="module"></script>
   </head>
@@ -83,7 +84,14 @@
 
           <figure class="bar-canvas-fig">
             <h3>Overview</h3>
-            <canvas id="bar-canvas" aria-label="chart" role="img"></canvas>
+            <div class="chartBoxBar">
+              <canvas 
+              id="bar-canvas" 
+              aria-label="chart" 
+              role="img">
+              </canvas>
+            </div>
+            
           </figure>
         </div>
 
@@ -99,26 +107,28 @@
                 <option value="tdy">Turbidity [NTU]</option>
               </select>
             </h3>
-            <canvas
-              id="line-canvas"
-              aria-label="chart"
+            <div class="chartBoxLine">
+              <canvas 
+              id="line-canvas" 
+              aria-label="chart" 
               role="img"
-              height="300px"
-            ></canvas>
+              ></canvas>
+            </div>
+            
           </figure>
           <div class="testimonials">
             <h3>About</h3>
             <p>This app can be used by:</p>
             <ul>
               <li>
-                Engineers: for improving water quality and network performance.
+                <b>Engineers: </b>to improve water quality and network performance.
               </li>
               <li>
-                Policymakers: for conceiving better public health policies.
+                <b>Policymakers: </b>to conceive better public health policies.
               </li>
               <li>
-                Operators: they can be alerted if there is a serious problem
-                related to the water network.
+                <b>Operators: </b>they can be alerted if there's a serious problem
+                related to the drinkable water network.
               </li>
             </ul>
             <p>
@@ -127,10 +137,8 @@
               any suggestions for future versions.
             </p>
             <p>
-              <b
-                >This is a sample: values are not real, do not consider these
-                graphs as true.</b
-              >
+              <b>This is a sample: values are not real, do not consider these
+                graphs as true.</b>
             </p>
           </div>
         </div>
@@ -147,18 +155,7 @@
 
     <!-- Contact bottom header -->
 
-    <div
-      style="
-        background-color: #0f5e9c;
-        justify-content: space-between;
-        display: flex;
-        padding-left: 20%;
-        padding-right: 20%;
-        align-items: center;
-        padding-bottom: 2.5%;
-        padding-top: 2.5%;
-      "
-    >
+    <div class="contact" >
       <h2 style="color: white">Contact</h2>
       <ul class="nav-links">
         <li>
@@ -175,41 +172,18 @@
           <a
             href="https://github.com/clem-gh/TheGotitaProject_YI2023"
             style="color: white"
-            >GitHub</a
-          >
+            >GitHub</a>
         </li>
       </ul>
     </div>
 
-    <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        padding-left: 10%;
-        padding-right: 10%;
-        align-items: center;
-        padding-bottom: 2.5%;
-        padding-top: 2.5%;
-      "
-    >
-      <a href="https://www.utp.edu.co/"
-        ><img
-          class="utp"
-          id="logoSupport"
-          src="images/Logo_U.T.P.png"
-          height="60"
-          alt="logo"
-          style="border: 0px"
-      /></a>
-      <a href="https://minciencias.gov.co/"
-        ><img
-          id="logoSupport"
-          class="minciencia"
-          src="images/logo_minciencias.jpg"
-          height="50"
-          alt="logo"
-          style="border: 0px"
-      /></a>
+    <div class="sponsors">
+      <a href="https://www.utp.edu.co/">
+        <img class="img_" id="utp" src="images/Logo_U.T.P.png" alt="logoUTP"/>
+      </a>
+      <a href="https://minciencias.gov.co/">
+        <img class="img_" id="minciencia" src="images/logo_minciencias.jpg" alt="logoMinciencia"/>
+      </a>
     </div>
 
     <script

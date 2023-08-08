@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/logo.PNG" />
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link type="module" src="./main.js">
     <title>The Gotita Project</title>
   </head>
 
@@ -34,13 +35,13 @@
 
     <div class="content">
       <div>
-        <div class="row">
-          <div class="column" style="padding: 10px 20px 10px 20px">
+        <div class="row" id="row">
+          <div class="column" id="columnPad">
             <h1 id="bckg-blue">
-              The Gotita Project it's a remote water quality measuring system.
+              The Gotita Project is a remote measurement system for water quality.
             </h1>
           </div>
-          <div class="column" style="padding: 10px 20px 10px 20px">
+          <div class="column" id="columnPad">
             <img
               id="images"
               src="./images/tgp2.jpg"
@@ -55,18 +56,18 @@
         <h1>
           Our solution is based on LoRa technologies and LoRaWAN Protocol.
         </h1>
-        <div class="row">
-          <div class="column" style="padding: 10px 20px 10px 20px">
+        <div class="row" id="row">
+          <div class="column" id="columnPad">
             <p>
-              With the LoRaWAN protocol, (Long Range Wide Area Network), the
-              communication between objects can reach securely up to 15km.
+              With the LoRaWAN protocol (Long Range Wide Area Network) the
+              communication between objects can reach up to 15km.
             </p>
             <p>
-              The Things Networks (TTN) is an open platform offering
-              connectivity services using LoRaWAN communication.
+              The Things Networks (TTN) is an open platform offering secure
+              connectivity services for LoRaWAN communication.
             </p>
           </div>
-          <div class="column" style="padding: 10px 20px 10px 20px">
+          <div class="column" id="columnPad">
             <img
               id="images"
               src="./images/img5.png"
@@ -74,7 +75,7 @@
               style="border: 0px"
             />
             <p style="font-size: 10px">
-              <i>LoRaWAN architecture. @The Things Network</i>
+              <i>Example of the LoRaWAN architecture @The Things Network</i>
             </p>
           </div>
         </div>
@@ -85,10 +86,9 @@
           Our nodes are built on certified IoT boards
         </h1>
         <p>
-          Each node is built on a Pycom board. Pycom offers microcontrollers
-          that can be configured on different RF including LoRa RF. These boards
-          are MicroPython devices. Using MicroPython as the programming lenguage
-          facilitates the use open source libraries for controlling the sensors.
+          Each node is built on a Pycom board that can communicate in LoRa RF. 
+          These boards are MicroPython devices that can use open source libraries 
+          related to the sensors.
         </p>
         <div>
           <a href="https://docs.pycom.io/datasheets/development/lopy4/"
@@ -99,89 +99,81 @@
               style="border: 0px"
           /></a>
           <p style="font-size: 10px">
-            <i>Pinboard of the develoment board LoPy @Pycom</i>
+            <i>Pinboard of the LoPy board @Pycom</i>
           </p>
         </div>
         <p>
-          The pinboard of pycom devices can be used for different purposes. They
-          have integrated on their system Analog to Digital Converters that will
-          aloud us to use multiple analog sensors.
+          These Pycom devices have integrated on their system multiple Analog to Digital 
+          Converters (ADC). Their purpose is to convert Analog signals into Digital ones,
+          so the device can understand what are the outputs (measurements) of the sensors.
         </p>
       </div>
 
       <div class="wqvariables" style="padding: 20px 0px 20px 0px">
         <h1>
-          The Gotita Project is measuring 5 diferent water quality variables.
+          The Gotita Project measures 5 diferent water quality variables.
         </h1>
         <ul>
           <li>
             <b>pH:</b> The pH probe is built on a glass-based membrane. This
-            probe is widely used because it's cheap and can be adapted to IoT
-            systems. Even so, this probe needs to be calibrated frequently, it
-            has a slow response and the error is higher than in other devices.
+            probe is widely used because it's cheap and it's design is simple. 
+            Even so, this probe needs to be calibrated frequently and the error is higher
+            compared to other devices.
           </li>
           <li>
             <b>Electrolical Conductivity (EC):</b> The EC probe is built on a 2
-            cell electrode. Values presents low errors, and the probe is very
-            cheap compared to other technologies. The response is not fast.
+            cell electrode. Measruements have low error and the probe is very
+            cheap compared to other technologies.
           </li>
           <li>
-            <b>Dissolved Oxygen (OD):</b> The OD probe is built on a galvanic
-            cell electrode. Eventhough this probe is not the most commonly used
-            in industry, it offers values with lo errors and probe still cheap
-            compared to other technogologies.
+            <b>Dissolved Oxygen (OD):</b> The OD probe consist of a galvanic
+            cell electrode. Eventhough this probe is not commonly used
+            in industry, it offers low error and the probe still cheap
+            compared to other technologies.
           </li>
           <li>
-            <b>Turbidity:</b> The turbidity is being measured by a tubidimeter.
-            This turbidimeter is not the most accurate one but is very cheap.
+            <b>Turbidity:</b> The turbidity is being measured with a tubidimeter.
+            This turbidimeter is not very accurate but it's very cheap.
           </li>
           <li>
-            <b>Temperature:</b> The temperature is being measured by a
-            thermistor. It's cheap, has a good response and is the error is low.
+            <b>Temperature:</b> The temperature is being measured with a
+            thermistor. It's cheap, has a good response and the error is low.
           </li>
         </ul>
       </div>
 
       <div class="product">
         <h1>Product design</h1>
-        <div class="row">
-          <div class="column">
+        <div class="row" id="row">
+          <div class="column" id="columnPad">
             <p>
-              This product has been designed in such way that biofouling is
-              prevent and calibration wouldn't be necessary frequently.
+              This product has been designed in such a way that biofouling is avoided 
+              and calibration frequency is decreased. These two phenomena are closely 
+              related to the amount of time that the sensors are in contact with the water.
             </p>
             <p>
-              With the help of electric valves and the microcontroller we will
-              control the level of water inside the device. By doing this, we
-              are controlling the amount of time when sensors are in contact
-              with water.
+              We have added two electric valves that are controlled by the microcontroller. 
+              The purpose of this is to control the water levels within the device. 
+              In this way, we prevent the sensors from being submerged in water for long periods of time.
             </p>
           </div>
-          <div class="column" style="text-align: right; padding-right: 20px">
+          <div class="column" id="columnPad" style="text-align: right; padding-right: 20px">
             <img
               id="images"
               src="./images/img6.png"
               alt="product"
-              style="width: 30%; border: 0px"
+              style="width: 70%; border: 0px"
             />
+            <p style="font-size: 10px"><i>Product design</i></p>
           </div>
-          <p style="font-size: 10px"><i>Product design</i></p>
         </div>
       </div>
+
+    </div>
+      <img src="" alt="">
     </div>
 
-    <div
-      style="
-        background-color: #0f5e9c;
-        justify-content: space-between;
-        display: flex;
-        padding-left: 20%;
-        padding-right: 20%;
-        align-items: center;
-        padding-bottom: 2.5%;
-        padding-top: 2.5%;
-      "
-    >
+    <div class="contact" >
       <h2 style="color: white">Contact</h2>
       <ul class="nav-links">
         <li>
@@ -204,35 +196,14 @@
       </ul>
     </div>
 
-    <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        padding-left: 10%;
-        padding-right: 10%;
-        align-items: center;
-        padding-bottom: 2.5%;
-        padding-top: 2.5%;
-      "
-    >
-      <a href="https://www.utp.edu.co/"
-        ><img
-          class="utp"
-          id="logoSupport"
-          src="images/Logo_U.T.P.png"
-          height="60"
-          alt="logo"
-          style="border: 0px"
-      /></a>
-      <a href="https://minciencias.gov.co/"
-        ><img
-          id="logoSupport"
-          class="minciencia"
-          src="images/logo_minciencias.jpg"
-          height="50"
-          alt="logo"
-          style="border: 0px"
-      /></a>
+    <div class="sponsors">
+      <a href="https://www.utp.edu.co/">
+        <img id="utp" src="images/Logo_U.T.P.png" alt="logoUTP"/>
+      </a>
+      <a href="https://minciencias.gov.co/">
+        <img id="minciencia" src="images/logo_minciencias.jpg" alt="logoMinciencia"/>
+      </a>
     </div>
+
   </body>
 </html>

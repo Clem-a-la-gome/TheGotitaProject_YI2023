@@ -1,0 +1,13 @@
+img {
+    width: 100%;
+    border: 0px solid #909496;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+
+.img_ {
+    width: 100%;
+    border: 1px solid #909496;
+    border-radius: 8px;
+    transition: 0.5s;
+}

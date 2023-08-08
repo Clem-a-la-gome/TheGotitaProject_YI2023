@@ -126,6 +126,7 @@ onAuthStateChanged(auth, async (user) => {
             type: 'bar',
             data: barData,
             options: {
+                maintainAspectRatio: false,
                 plugins: {
                     subtitle: {
                         display: true,
@@ -181,6 +182,7 @@ onAuthStateChanged(auth, async (user) => {
             type: 'line',
             data : lineData,
             options: {
+                maintainAspectRatio: false,
                 plugins: {
                     subtitle: {
                         display: true,
